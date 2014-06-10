@@ -46,8 +46,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # needed for statistics
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sokp.branch=$(sokp_BRANCH) \
-    ro.sokp.device=$(sokp_PRODUCT)
+    ro.sokp.branch=$(SOKP_BRANCH) \
+    ro.sokp.device=$(SOKP_PRODUCT)
 
 # Camera shutter sound property
 PRODUCT_PROPERTY_OVERRIDES += \
